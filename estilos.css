@@ -1,5 +1,25 @@
-.centrado{
-    text-align:center;
-    vertical-align: middle;
-
+.centrado {
+  text-align: center;
+  vertical-align: center;
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+.imgFondo {
+  height: 100vh;
+  width:auto;
+  background-image: url("globos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.imgLenguajes{
+  height: 50vh;
+  background-image: url("lenguajesP.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
