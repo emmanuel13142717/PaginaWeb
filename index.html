@@ -7,56 +7,129 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     ACEDER CON INTERNET-->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!--Acceder a los archivos de boostrap compilados-->
   </head>
   <body>
-    
-      <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <img src="icons8-source-code-40.png">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú de Inicio</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Experiencia</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contacto
-                  </a>                 
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-            </div>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <img src="icons8-source-code-40.png" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Menú de Inicio
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link"  href="#contacto">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-      </nav>
-    
-    <div class="container py-5">
-      <div class="row ">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-          <h1 class="centrado" >Desarrollador Full Stack</h1>
-          <h2></h2>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"></div>
-          <img src="cartoon.jpg"  >
-        </div>
-        
       </div>
+    </nav>
+    <div class="imgFondo">
+      <div class="centrado">
+        <h3
+          class=""
+          style="color: black; font-family: 'zantrokeregular', serif"
+        >
+          Hola, mi nombre es:
+        </h3>
+        <h3 class="" style="color: black">Emmanuel Martínez Plata</h3>
+        <p class="" style="color: black; font-size: 'xx-large'">
+          Actualmente trabajo como Desarrollador JR para la empresa Infotec de
+          la Ciudad de México.
+        </p>
+      </div>
+    </div>
+    <div style="background-color: slategrey">
+      <br><br><br>
+      <div id="experiencia" class="row" >
+        
+        <h4 style="color: white; text-align: center;">Experiencia Laboral</h4>
+        <br><br>
+        <table class="table table-borderless table-sm">
+          <thead>
+            <th style="color: white; text-align: center"> </th>
+            <th style="color: white; text-align: center">Empresa</th>
+            <th style="color: white; text-align: center">Periodo</th>
+            <th style="color: white; text-align: center">Funciones</th>
+          </thead>
+          <tbody class="table-bordered" style="text-align:center">
+            <tr >
+              <td style="width:20%" ><img src="886.png" style="width:50%; "></td>
+              <td style="color: white">Infotec</td>
+              <td style="color: white">25-Febrero-2022 - Presente</td>
+              <td style="color: white; text-align:left"><p>-Soporte y Actualización de página web para sector Salud</p><p>-Creación de nuevos modulos</p><p>-Corrección a nivel base de Datos</p></td>
+            </tr>
+            <tr >
+              <td style="width:20%;height:2%" ><img src="gho.webp" style="width:50%; height:2%; "></td>
+              <td style="color: white">Grupo Herradura Occidente</td>
+              <td style="color: white">30-Abril-2018 al 09-Febrero-2022</td>
+              <td style="color: white; text-align:left"><p>-Soporte a base de Datos</p><p>-Soporte técnico a equipos de boleteras e impresoras</p><p>-Monitoreo de cctv</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="contacto" style="background-color:azure" class="imgLenguajes">
+      <br>
+      <h2 style="color:white">Conocimientos</h2>
+      <p style="color:white">HTML5</p>
+      <p style="color:white">CSS</p>
+      <p style="color:white">Java</p>
+      <p style="color:white">JavaScript</p>
+      <p style="color:white">MongoDB</p>
+      <p style="color:white">MySQL</p>
+      <p style="color:white">Git</p>
+      <p style="color:white">SmartClient</p>
+    </div>
+    <div id="contacto" style="background-color:cadetblue">
+      <h2>Contacto</h2>
+      <p><i class="bi bi-geo-alt"></i>  Atlacomulco, Estado de México</p>
+      <p><i class="bi bi-telephone"></i>  Tel: 7121148526</p>
+      <p><i class="bi bi-envelope-paper"></i>  Email: emmanuel13142717@gmail.com</p>
     </div>
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     -->
